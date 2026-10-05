@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Brillante - Instituto Superior de Formación Tecnológica</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+      <!-- HEADER Y NAVEGACIÓN CON LOGOTIPO -->
+<header class="sticky-top bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light container py-3">
+        <!-- Logotipo institucional -->
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-primary" href="#">
+            <div class="logo-icon bg-primary text-white rounded-3 d-flex align-items-center justify-content-center shadow-sm" style="width: 42px; height: 42px;">
+                <!-- Icono SVG corporativo simulando un birrete o libro abierto -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 6.5V13a.5.5 0 0 0 1 0V6.015l.286-.147a.5.5 0 0 0 .025-.917z"/>
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.435z"/>
+                </svg>
+            </div>
+            <div class="d-flex flex-column">
+                <span class="fs-5 lh-1 text-dark fw-extrabold">Futuro Brillante</span>
+                <span class="text-muted" style="font-size: 0.75rem; letter-spacing: 0.5px;">INSTITUTO SUPERIOR</span>
+            </div>
+        </a>
+
+        <!-- Botón responsive para móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center gap-3">
+                <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#programas">Programas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                <li class="nav-item">
+                    <a href="#registro" class="btn btn-primary text-white px-4">Regístrate</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main id="inicio">
+        <!-- HERO SECTION MEJORADA PARA MÓVIL Y PC -->
+        <section class="hero-section bg-light py-4 py-md-5">
+            <div class="container py-4">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <!-- Insignia superior -->
+                        <div class="d-inline-flex align-items-center bg-primary-subtle text-primary px-3 py-1 rounded-pill mb-3 fw-semibold small">
+                            ✨ Admisión Abierta 2026
+                        </div>
+                        
+                        <h1 class="display-5 fw-bold text-dark mb-3">Forma tu futuro con educación de calidad</h1>
+                        
+                        <p class="lead text-muted mb-4 fs-6">
+                            Programas técnicos superiores diseñados para impulsar tu desarrollo profesional y personal en el mercado actual.
+                        </p>
+                        
+                        <!-- Botón de acción rápido -->
+                        <div class="mb-4">
+                            <a href="#registro" class="btn btn-primary btn-lg px-4 py-2 fw-bold text-white shadow-sm w-100 w-sm-auto">
+                                Regístrate Ahora 🚀
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Estudiantes del Instituto Futuro Brillante" class="img-fluid rounded-4 shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BENEFICIOS -->
+        <section id="beneficios" class="py-5 bg-white">
+            <div class="container py-4">
+                <h2 class="text-center fw-bold mb-5">¿Por qué estudiar con nosotros?</h2>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="fs-1 text-primary mb-3">🏆</div>
+                            <h3 class="h5 fw-bold">Educación de calidad</h3>
+                            <p class="text-muted small">Docentes experimentados y malla curricular actualizada.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="fs-1 text-primary mb-3">💼</div>
+                            <h3 class="h5 fw-bold">Oportunidades reales</h3>
+                            <p class="text-muted small">Convenios estratégicos para prácticas e inserción laboral.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="fs-1 text-primary mb-3">🕒</div>
+                            <h3 class="h5 fw-bold">Modalidad flexible</h3>
+                            <p class="text-muted small">Horarios diseñados para estudiantes y trabajadores.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <div class="fs-1 text-primary mb-3">🚀</div>
+                            <h3 class="h5 fw-bold">Acompañamiento</h3>
+                            <p class="text-muted small">Tutoría académica constante y soporte técnico permanente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PROGRAMAS -->
+        <section id="programas" class="py-5 bg-light">
+            <div class="container py-4">
+                <h2 class="text-center fw-bold mb-5">Nuestros Programas Académicos</h2>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Desarrollo de Software">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="h5 fw-bold">Desarrollo de Software</h3>
+                                <p class="text-muted small flex-grow-1">Aprende a crear aplicaciones web, móviles y sistemas inteligentes aplicando tecnologías modernas.</p>
+                                <a href="#registro" class="btn btn-outline-primary mt-auto">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Administración de Empresas">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="h5 fw-bold">Administración de Empresas</h3>
+                                <p class="text-muted small flex-grow-1">Lidera organizaciones, gestiona proyectos eficientemente y optimiza procesos corporativos.</p>
+                                <a href="#registro" class="btn btn-outline-primary mt-auto">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Redes y Telecomunicaciones">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="h5 fw-bold">Redes y Telecomunicaciones</h3>
+                                <p class="text-muted small flex-grow-1">Diseña, configura y asegura infraestructuras de redes y conectividad empresarial.</p>
+                                <a href="#registro" class="btn btn-outline-primary mt-auto">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN FORMULARIO DE REGISTRO E INTERACTIVIDAD -->
+        <section id="registro" class="py-5 bg-white">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="card border-0 shadow p-4 p-md-5 rounded-4">
+                            <h2 class="text-center fw-bold mb-2">Regístrate Ahora</h2>
+                            <p class="text-center text-muted mb-4">Completa tus datos para recibir asesoría académica personalizada.</p>
+                            
+                            <!-- Alerta de validación dinámica -->
+                            <div id="formAlert" class="alert d-none" role="alert"></div>
+
+                            <form id="registroForm" novalidate>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label fw-semibold">Nombres completos</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ej. Carlos Pérez">
+                                    <div class="invalid-feedback">Por favor ingresa tu nombre completo.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-semibold">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+                                    <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefono" class="form-label fw-semibold">Teléfono / Celular</label>
+                                    <input type="tel" class="form-control" id="telefono" placeholder="987654321">
+                                    <div class="invalid-feedback">Ingresa un número de teléfono válido (9 dígitos).</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="programa" class="form-label fw-semibold">Programa de interés</label>
+                                    <select class="form-select" id="programa">
+                                        <option value="" selected disabled>Selecciona un programa</option>
+                                        <option value="software">Desarrollo de Software</option>
+                                        <option value="administracion">Administración de Empresas</option>
+                                        <option value="redes">Redes y Telecomunicaciones</option>
+                                    </select>
+                                    <div class="invalid-feedback">Selecciona una carrera de interés.</div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="terminos">
+                                    <label class="form-check-label small text-muted" for="terminos">Acepto los términos y condiciones y la política de privacidad.</label>
+                                    <div class="invalid-feedback">Debes aceptar los términos y condiciones.</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-2 fw-bold text-white">Enviar Registro</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-between">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Futuro Brillante Instituto Superior</h5>
+                    <p class="text-white-50 small">Formando profesionales técnicos competitivos preparados para transformar el futuro tecnológico y empresarial.</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Enlaces rápidos</h6>
+                    <ul class="list-unstyled small text-white-50">
+                        <li><a href="#inicio" class="text-decoration-none text-white-50">Inicio</a></li>
+                        <li><a href="#beneficios" class="text-decoration-none text-white-50">Beneficios</a></li>
+                        <li><a href="#programas" class="text-decoration-none text-white-50">Programas</a></li>
+                    </ul>
+                </div>
+               <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Contáctanos</h6>
+                    <p class="text-white-50 small mb-1">📍 Av. Tecnológica 123, Lima</p>
+                    <p class="text-white-50 small mb-1">📞 Teléfono: (01) 555-1234</p>
+                    <p class="text-white-50 small">✉️ Correo: admision@futurobrillante.edu.pe</p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center text-white-50 small">
+                <p class="mb-0">&copy; 2026 Instituto Superior Futuro Brillante. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script de Interactividad JS -->
+    <script src="script.js"></script>
+    <a href="https://wa.me/51987654321?text=Hola,%20deseo%20más%20información%20sobre%20los%20programas%20del%20instituto" 
+   target="_blank" 
+   class="position-fixed bottom-0 end-0 m-4 bg-success text-white rounded-circle p-3 shadow-lg d-flex align-items-center justify-content-center" 
+   style="width: 60px; height: 60px; z-index: 1000; text-decoration: none;"
+   title="Escríbenos por WhatsApp">
+    💬
+</a>
+</body>
+</html>

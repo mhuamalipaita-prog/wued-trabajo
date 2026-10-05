@@ -1,0 +1,104 @@
+/* ==========================================
+   1. VARIABLES Y CONFIGURACIÓN GENERAL
+   ========================================== */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --dark-color: #212529;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark-color);
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* ==========================================
+   2. NAVEGACIÓN Y LOGOTIPO
+   ========================================== */
+.navbar-brand {
+    font-weight: 700;
+}
+
+.logo-icon {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .logo-icon {
+    transform: scale(1.05);
+}
+
+/* ==========================================
+   3. SECCIÓN HERO
+   ========================================== */
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    display: flex;
+    align-items: center;
+}
+
+/* ==========================================
+   4. TARJETAS Y GRID DE PROGRAMAS / BENEFICIOS
+   ========================================== */
+/* Asegura una distribución fluida con CSS Grid para las tarjetas */
+.row.g-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2.5rem rgba(13, 110, 253, 0.12) !important;
+}
+
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    height: 200px;
+}
+
+/* ==========================================
+   5. FORMULARIO Y VALIDACIÓN DINÁMICA
+   ========================================== */
+#registro .card {
+    background-color: #ffffff;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+#formAlert {
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+/* ==========================================
+   6. FOOTER INSTITUCIONAL
+   ========================================== */
+footer {
+    background-color: #1a1e21 !important;
+}
+
+footer a:hover {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
+.hero-section {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEQdDeCQsJ65zwjCib2SQzyGQ1t8V6sn5fKLXyIwq_EQ&s=10');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh; /* Ocupa el 80% de la altura de la pantalla */
+}
